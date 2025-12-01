@@ -12,7 +12,7 @@ def part2(data):
 
 if __name__ == "__main__":
     YEAR, DAY = 2024, 19
-    with open(f"{YEAR}/{DAY}/data/{DAY}_test.txt") as file:
+    with open(f"{YEAR}/{DAY:02d}/data/{DAY:02d}_test.txt") as file:
         data = file.read().splitlines()
 
     res_p1 = part1(data)
